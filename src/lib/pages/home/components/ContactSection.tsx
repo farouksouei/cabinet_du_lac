@@ -32,6 +32,7 @@ const ContactSection = () => {
                 <Button
                     as="a"
                     size="lg"
+                    href="https://rdvdentiste.net/toulouse/maha-ammar.html#praticiensHREF"
                     bg="blue.500"
                     color="white"
                     _hover={{ bg: "blue.400" }}

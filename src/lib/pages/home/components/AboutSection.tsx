@@ -1,6 +1,6 @@
 // components/AboutSection.js
 "use server"
-import { Box, Heading, Text, Image, Flex } from "@chakra-ui/react";
+import { Box, Heading, Text, Flex } from "@chakra-ui/react";
 
 const AboutSection = () => {
     return (
@@ -10,20 +10,10 @@ const AboutSection = () => {
                 À Propos de Nous
             </Heading>
             <Flex direction={["column", "column", "row"]} align="center">
-                <Image
-                    src="/ammar.webp"
-                    alt="Dr. Maha Ammar"
-                    boxSize="300px"
-                    borderRadius="full"
-                    mr={[0, 0, "10"]}
-                    mb={["5", "5", "0"]}
-                />
                 <Box maxW="600px">
                     <Text fontSize="lg" mb="4">
-                        Le Dr. Maha Ammar est une chirurgienne-dentiste diplômée de la
-                        Faculté de médecine Toulouse Purpan. Elle est spécialisée en
-                        implantologie et endodontie, offrant des soins de haute qualité pour
-                        tous vos besoins bucco-dentaires.
+                        Cabinet Dentaire du lac  est un cabinet engagé à offrir des soins dentaires de haute qualité en s’appuyant sur des technologies de pointe telles que les radiographies numériques et les scans 3D. Ces outils permettent de garantir des diagnostics précis et des traitements sur mesure adaptés aux besoins de chaque patient.
+                        La mission du cabinet est de combiner innovation technologique et expertise médicale pour améliorer l’expérience de soin et renforcer la satisfaction des patients.
                     </Text>
                     <Text fontSize="lg">
                         Langues parlées : Anglais et Français.

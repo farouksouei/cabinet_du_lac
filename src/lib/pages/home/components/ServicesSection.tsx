@@ -6,15 +6,31 @@ const services = [
     {
         title: "Alignement dentaire invisible",
         description:
-            "Obtenez un sourire parfait avec nos solutions d'alignement invisibles.",
+          "Obtenez un sourire parfait avec nos solutions d'alignement invisibles.",
     },
     {
         title: "Blanchiment des dents",
         description: "Des dents plus blanches pour un sourire éclatant.",
     },
     {
+        title: "Couronne dentaire",
+        description: "Restaurez vos dents abîmées avec des couronnes durables et esthétiques.",
+    },
+    {
         title: "Implant dentaire",
         description: "Remplacez vos dents manquantes avec des implants durables.",
+    },
+    {
+        title: "Implantologie dentaire",
+        description: "Des solutions avancées pour les implants dentaires, adaptées à vos besoins.",
+    },
+    {
+        title: "Prothèse dentaire fixe ou amovible",
+        description: "Retrouvez une fonction dentaire complète avec des prothèses fixes ou amovibles.",
+    },
+    {
+        title: "Prothèse sur implant",
+        description: "Fixez vos prothèses dentaires sur des implants pour une solution durable et stable.",
     },
 ];
 

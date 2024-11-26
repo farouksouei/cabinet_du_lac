@@ -54,11 +54,12 @@ const HeroSection = () => {
                         Votre sourire, notre priorité.
                     </Text>
                     <Button
-                        as="a"
-                        size="lg"
-                        bg="blue.500"
-                        color="white"
-                        _hover={{ bg: "blue.400" }}
+                      as="a"
+                      href="https://www.doctolib.fr/dentiste/toulouse/maha-amar" // Link to the desired page
+                      size="lg"
+                      bg="blue.500"
+                      color="white"
+                      _hover={{ bg: "blue.400" }}
                     >
                         Prenez Rendez-vous
                     </Button>
