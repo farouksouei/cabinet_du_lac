@@ -6,8 +6,8 @@ import {
     Text,
     VStack,
     HStack,
-    Button,
-} from "@chakra-ui/react";
+    Button, Link,
+} from '@chakra-ui/react';
 
 const ContactSection = () => {
     return (
@@ -29,16 +29,17 @@ const ContactSection = () => {
                         Horaires: 09h00 - 12h30, 14h00 - 18h00 (Lundi - Vendredi)
                     </Text>
                 </HStack>
-                <Button
-                    as="a"
-                    size="lg"
-                    href="https://rdvdentiste.net/toulouse/maha-ammar.html#praticiensHREF"
-                    bg="blue.500"
-                    color="white"
-                    _hover={{ bg: "blue.400" }}
-                >
-                    Obtenir l&apos;itinéraire
-                </Button>
+                <Link href="https://rdvdentiste.net/toulouse/maha-ammar.html#praticiensHREF">
+                    <Button
+                      size="lg"
+                      bg="blue.500"
+                      color="white"
+                      _hover={{ bg: "blue.400" }}
+                    >
+                        Obtenir l&apos;itinéraire
+                    </Button>
+                </Link>
+
             </VStack>
         </div>
     );

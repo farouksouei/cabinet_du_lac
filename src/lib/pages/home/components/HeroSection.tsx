@@ -1,6 +1,6 @@
 "use client"; // Ensure the component is treated as a Client Component
 
-import { Flex, Box, Heading, Text, Button } from "@chakra-ui/react";
+import { Flex, Box, Heading, Text, Button, Link } from '@chakra-ui/react';
 
 const HeroSection = () => {
     return (
@@ -53,16 +53,16 @@ const HeroSection = () => {
                     <Text fontSize="xl" mb="8">
                         Votre sourire, notre priorité.
                     </Text>
-                    <Button
-                      as="a"
-                      href="https://www.doctolib.fr/dentiste/toulouse/maha-amar" // Link to the desired page
-                      size="lg"
-                      bg="blue.500"
-                      color="white"
-                      _hover={{ bg: "blue.400" }}
-                    >
-                        Prenez Rendez-vous
-                    </Button>
+                    <Link href="https://www.doctolib.fr/dentiste/toulouse/maha-amar">
+                        <Button
+                          size="lg"
+                          bg="blue.500"
+                          color="white"
+                          _hover={{ bg: "blue.400" }}
+                        >
+                            Prenez Rendez-vous
+                        </Button>
+                    </Link>
                 </Flex>
             </Box>
         </div>
